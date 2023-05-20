@@ -1,8 +1,11 @@
 import './App.css';
+import Global from './containers/Global/Global';
 
 function App() {
   return (
-    <div>Hello World</div>
+    <>
+    <Global />
+    </>
     );
 }
 
